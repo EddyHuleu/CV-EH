@@ -145,7 +145,7 @@ body{
 }
 
 .section:hover{
-	color:#00AA00;
+	color:#c26248;
 }
 
 .sec-gauche{
@@ -155,10 +155,18 @@ body{
 	color: white;
 }
 
+.sec-gauche:hover{
+	color: #c26248;
+}
+
 .sec-droite{
 	margin-left: 150px;
 	margin-top: 36px;
 	color: white;
+}
+
+.sec-droite:hover{
+	color: #c26248;
 }
 
 h2{
