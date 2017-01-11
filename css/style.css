@@ -111,7 +111,7 @@ body{
 	margin: auto;
 	font-family: 'Source sans Pro', Calibri, Tahoma, sans-serif;
 	font-size: 16px;
-	border: 5px double black;
+	border: 3px double black;
 	border-radius: 10px;
 	box-shadow: 2px 3px 4px black;
 	padding: 20px;
@@ -201,4 +201,6 @@ h2{
 strong{
 	font-size: 22px;
 }
+
+
 
