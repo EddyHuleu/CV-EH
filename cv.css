@@ -1,0 +1,109 @@
+html
+{
+width:100%;
+height:100%;
+ 
+}
+.imageflottante
+{
+    float: right;
+    margin-right:2%;
+    border: 2px solid teal;
+    border-radius:10px 10px 10px 10px;
+    box-shadow:1px 0px 10px black;
+        
+}
+ 
+body
+{
+    width:100%;
+    height:100%;
+    background:url('imagecv/fond.png')fixed repeat top left;
+}
+ 
+aside
+{
+display:block;
+position: fixed;
+left: 0px;
+top: 0px;
+width:15%;
+height:100%;   
+background-color:teal;
+}
+ 
+ 
+h1
+{
+display:block;
+position:relative;
+width:100%;
+margin-left: 18%;
+font-family: 'enigmaticbold',arial,serif;
+text-align: center;
+color: teal;
+ 
+}
+ 
+ 
+#phrase
+{  
+display: block;
+position:relative;
+height:10%;
+margin-left: 18%;
+font-family: arial,serif;
+text-align: center;
+ 
+}
+#blocpage
+{
+    display:flex;
+    flex-direction:row;
+    align-items: flex-start;
+    width:100%;
+    height:100%;
+    margin-left:20%;
+    font-family:arial,serif;
+    font-size:70%;
+}
+ 
+ 
+#conteneur1
+{
+    display:flex;
+    width:20%;
+    flex-direction:column;
+    font-family:arial,serif;   
+}
+.element
+{
+    margin:auto;
+}
+ 
+#blocpage ul
+{
+list-style-type:none;
+}
+ 
+h3
+{
+    font-family: 'enigmaticbold';
+    font-size: 140%;
+    margin:auto;
+}
+#conteneur2
+{
+    display:flex;
+    width:20%;
+    flex-direction:column;
+     
+ 
+    }
+#conteneur3
+{
+    display:flex;
+    width:20%;
+    flex-direction:column;
+    
+    }

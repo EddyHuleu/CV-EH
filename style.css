@@ -35,57 +35,57 @@ max-height:15em;
 }
 /* background des liens menus */
 #menu-demo2 li:first-child{
-background-color: #3388DD;
-background-image:-webkit-linear-gradient(top, #3388DD 0%, #3388DD 100%);
-background-image:linear-gradient(to bottom, #3388DD 0%, #3388DD 100%);
+background-color: #e0aca3;
+background-image:-webkit-linear-gradient(top, #e0aca3 0%, #e0aca3 100%);
+background-image:linear-gradient(to bottom, #e0aca3 0%, #e0aca3 100%);
 }
 #menu-demo2 li:nth-child(2){
-background-color: #3388DD;
-background-image: -webkit-linear-gradient(top, #3388DD 0%, #3388DD 100%);
-background-image:linear-gradient(to bottom, #3388DD 0%, #3388DD 100%);
+background-color: #e0aca3;
+background-image: -webkit-linear-gradient(top, #e0aca3 0%, #e0aca3 100%);
+background-image:linear-gradient(to bottom, #e0aca3 0%, #e0aca3 100%);
 }
 #menu-demo2 li:nth-child(3){
-background-color: #3388DD;
-background-image:-webkit-linear-gradient(top, #3388DD 0%, #3388DD 100%);
-background-image:linear-gradient(to bottom, #3388DD 0%, #3388DD 100%);
+background-color: #e0aca3;
+background-image:-webkit-linear-gradient(top, #e0aca3 0%, #e0aca3 100%);
+background-image:linear-gradient(to bottom, #e0aca3 0%, #e0aca3 100%);
 }
 #menu-demo2 li:last-child{
-background-color: #3388DD;
-background-image:-webkit-linear-gradient(top, #3388DD 0%, #3388DD 100%);
-background-image:linear-gradient(to bottom, #3388DD 0%, #3388DD 100%);
+background-color: #e0aca3;
+background-image:-webkit-linear-gradient(top, #e0aca3 0%, #e0aca3 100%);
+background-image:linear-gradient(to bottom, #e0aca3 0%, #e0aca3 100%);
 }
 /* background des liens sous menus */
 #menu-demo2 li:first-child li{
-background:#3388DD;
+background:#e0aca3;
 }
 #menu-demo2 li:nth-child(2) li{
-background:#3388DD;
+background:#e0aca3;
 }
 #menu-demo2 li:nth-child(3) li{
-background:#3388DD;
+background:#d09273;
 }
 #menu-demo2 li:last-child li{
-background:#3388DD;
+background:#d09273;
 }
 /* background des liens menus et sous menus au survol */
 #menu-demo2 li:first-child:hover, #menu-demo2 li:first-child li:hover{
-background:#3388DD;
+background:#b24a3b;
 }
 #menu-demo2 li:nth-child(2):hover, #menu-demo2 li:nth-child(2) li:hover{
-background:#3388DD;
+background:#b24a3b;
 }
 #menu-demo2 li:nth-child(3):hover, #menu-demo2 li:nth-child(3) li:hover{
-background:#3388DD;
+background:#b24a3b;
 }
 #menu-demo2 li:last-child:hover, #menu-demo2 li:last-child li:hover{
-background:#3388DD;
+background:#b24a3b;
 }
 /* les a href */
 #menu-demo2 a{
 text-decoration:none;
 display:block;
 padding:8px 32px;
-color:#fff;
+color:#000;
 font-family:arial;
 }
 #menu-demo2 ul a{
@@ -101,9 +101,12 @@ color:#fff;
 
 body{
 	background-color: grey;
+	background-image:url(http://img1.goodfon.su/original/1920x1080/1/ef/abstrakciya-cvet-ugol-fon.jpg);
 }
 
 .page{
+	display: flex;
+	flex-direction: column;
 	width: 780px;
 	margin: auto;
 	font-family: 'Source sans Pro', Calibri, Tahoma, sans-serif;
@@ -112,24 +115,33 @@ body{
 	border-radius: 10px;
 	box-shadow: 2px 3px 4px black;
 	padding: 20px;
-	background-color: white;
 }
 
 .infophoto{
 	height: 250px;
+	color: white;
 }
 
 .info{
 	float: left;
+	color: white;
 }
 
 .photo{
 	float: right;
+	position :relative;      
+	animation: mymove 5s;
+}
+
+@keyframes mymove {
+    from {top: -200px;}
+    to {top: 0px;}
 }
 
 .section{
 	margin-bottom: 70px;
 	text-align: justify;
+	color: white;
 }
 
 .section:hover{
@@ -140,17 +152,19 @@ body{
 	float: left;
 	font-weight: bold;
 	font-size: 14px;
+	color: white;
 }
 
 .sec-droite{
 	margin-left: 150px;
 	margin-top: 36px;
+	color: white;
 }
 
 h2{
 	font-size: 28px;
-	color: #3388BB;
-	border-bottom: 3px solid #3388DD;
+	color: #d09273;
+	border-bottom: 3px solid #d09273;
 }
 
 .duree{
